@@ -1,0 +1,128 @@
+body {
+    background-color: ghostwhite;
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+h1 {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.password-box-lg {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+h2 {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-bottom: 2px #cccccc solid;
+}
+
+.password-box-sm {
+    padding: 10px;
+    margin: 10px;
+}
+
+.password-box-sm h3 {
+    text-align: center;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+#password-box-text {
+    padding: 10px;
+}
+
+textarea {
+    width: 35%;
+    height: 25%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #cccccc;
+    border: 2px dashed #cccccc;
+    border-radius: 4px;
+    resize: none;
+    display: block;
+}
+
+.generated-password:focus {outline: none; }
+
+.button-box {
+    margin-top: 20px;
+    border-top: 2px #cccccc solid;
+}
+
+button {
+    position: relative;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: maroon;
+    color: white;
+    display: inline-block;
+}
+
+.btn-generate {
+    margin-left: 0;
+    float: left;
+}
+
+.btn-clipboard {
+    background-color: lightgray;
+    float: left;
+}
+
+.btn {
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+label {
+    padding: 5px;
+    display: inline-block;
+    margin: 5px auto;
+}
+
+#radioYes {
+    padding: 5px;
+    display: inline-block;
+    margin: 5px auto;
+}
+
+#radioNo {
+    padding: 5px;
+    display: inline-block;
+    margin: 5px auto;
+}
